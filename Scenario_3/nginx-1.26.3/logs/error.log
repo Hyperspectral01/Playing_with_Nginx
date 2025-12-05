@@ -1,0 +1,6 @@
+2025/08/18 23:58:35 [error] 42140#28436: *25 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5001/", host: "localhost"
+2025/08/19 00:00:04 [notice] 37516#39540: signal process started
+2025/08/19 00:14:21 [error] 42140#28436: *29 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5001/", host: "my_site_1.com"
+2025/08/19 00:14:23 [error] 42140#28436: *29 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:5001/favicon.ico", host: "my_site_1.com", referrer: "http://my_site_1.com/"
+2025/08/19 00:30:22 [notice] 5252#37668: signal process started
+2025/08/19 00:30:22 [error] 5252#37668: CreateFile() "C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_3\nginx-1.26.3/logs/nginx.pid" failed (2: The system cannot find the file specified)

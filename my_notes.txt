@@ -1,0 +1,12 @@
+
+Development Server: Used during development for testing, debugging, and fast iteration. Focuses on speed, flexibility, and convenience. Supports auto reload so code changes apply immediately. Runs in debug mode with detailed error messages. Uses lightweight built-in development servers such as Flask app.run, Django runserver, or Node.js dev server. Provides detailed logs for debugging. Not meant to handle high traffic. Runs on localhost or a private IP. May include developer-only security features such as a debugger PIN.
+
+Production Server: Used for real users in real environments. Focuses on stability, security, scalability, and performance. Uses proper servers such as NGINX or Apache along with WSGI or ASGI servers like Gunicorn, uWSGI, or Waitress. Optimized for high concurrency and traffic. Does not expose stack traces to users. Enforces security such as SSL or TLS, secure headers, and firewalls. Includes monitoring, logging, backups, and reliability measures. Runs on a public IP or domain and must remain reliably available.
+
+IP Address Notes: 127.0.0.1 refers to the local device. 0.0.0.0 binds the server to all available network interfaces and allows access from external devices. Inbound firewall rules determine which IP addresses are allowed to access the server.
+
+NGINX Notes: To kill all NGINX processes in Windows use: taskkill /F /IM nginx.exe /T. /F forces termination. /IM specifies the process name. /T kills child processes too. If multiple server blocks exist on the same port and the request does not match any domain name, NGINX selects and uses the first server block by default.
+
+SSL and Certificate Notes: OpenSSL can be used locally to generate certificates for HTTPS. The process includes generating a private key (commonly a 2048 bit RSA key), creating a certificate signing request with domain information, and signing it. Production environments normally require a trusted certificate authority, but development environments can use self-signed certificates.
+
+Load Balancing with NGINX: Use an upstream block to define multiple backend servers with their IP addresses or ports. Use the server directive for each backend entry. Optional features such as ip_hash can be used to create sticky sessions based on client IP.

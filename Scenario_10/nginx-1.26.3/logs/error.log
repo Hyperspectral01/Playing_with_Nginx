@@ -1,0 +1,58 @@
+2025/08/18 23:58:35 [error] 42140#28436: *25 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5001/", host: "localhost"
+2025/08/19 00:00:04 [notice] 37516#39540: signal process started
+2025/08/19 00:14:21 [error] 42140#28436: *29 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5001/", host: "my_site_1.com"
+2025/08/19 00:14:23 [error] 42140#28436: *29 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:5001/favicon.ico", host: "my_site_1.com", referrer: "http://my_site_1.com/"
+2025/08/19 00:30:51 [notice] 15600#20576: signal process started
+2025/08/19 00:35:29 [notice] 27688#33000: signal process started
+2025/08/19 00:50:44 [notice] 40384#3864: signal process started
+2025/08/19 16:58:13 [notice] 12272#23876: signal process started
+2025/08/19 17:00:10 [notice] 37208#5460: signal process started
+2025/08/19 17:01:51 [notice] 27220#29540: signal process started
+2025/08/19 17:06:10 [notice] 39416#25312: signal process started
+2025/08/19 17:08:43 [notice] 37324#4556: signal process started
+2025/08/19 17:08:49 [notice] 31920#42824: signal process started
+2025/08/19 17:08:49 [error] 31920#42824: CreateFile() "C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_4\nginx-1.26.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/08/19 17:20:25 [notice] 10456#35388: signal process started
+2025/08/19 17:22:40 [notice] 10164#10332: signal process started
+2025/08/19 17:22:49 [notice] 35828#13272: signal process started
+2025/08/19 17:22:49 [error] 35828#13272: CreateFile() "C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_4\nginx-1.26.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/08/19 17:22:54 [notice] 28756#1984: signal process started
+2025/08/19 17:22:54 [error] 28756#1984: CreateFile() "C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_4\nginx-1.26.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/08/19 17:23:29 [notice] 8036#32204: signal process started
+2025/08/19 17:23:29 [error] 8036#32204: CreateFile() "C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_4\nginx-1.26.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/08/19 17:23:31 [notice] 36672#34400: signal process started
+2025/08/19 17:23:31 [error] 36672#34400: CreateFile() "C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_4\nginx-1.26.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/08/19 17:24:01 [notice] 42924#3900: signal process started
+2025/08/19 17:24:52 [notice] 5096#19988: signal process started
+2025/08/19 17:24:52 [error] 5096#19988: CreateFile() "C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_4\nginx-1.26.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/08/19 17:47:46 [emerg] 9588#26500: directive "server_name" is not terminated by ";" in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_5\nginx-1.26.3/conf/nginx.conf:45
+2025/08/19 17:48:42 [emerg] 33940#26744: directive "server_name" is not terminated by ";" in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_5\nginx-1.26.3/conf/nginx.conf:45
+2025/08/19 17:48:46 [emerg] 13480#42480: directive "server_name" is not terminated by ";" in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_5\nginx-1.26.3/conf/nginx.conf:45
+2025/08/19 17:48:51 [emerg] 20408#3820: directive "server_name" is not terminated by ";" in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_5\nginx-1.26.3/conf/nginx.conf:45
+2025/08/19 17:49:04 [emerg] 32612#10336: invalid URL prefix in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_5\nginx-1.26.3/conf/nginx.conf:88
+2025/08/19 17:49:40 [error] 24680#16448: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: my_site_1.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5005/", host: "localhost:1400"
+2025/08/19 17:49:46 [error] 24680#16448: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: my_site_1.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5005/", host: "localhost:1400"
+2025/08/19 17:49:52 [error] 24680#16448: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: my_site_1.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5005/", host: "localhost:1400"
+2025/08/19 17:50:04 [error] 24680#16448: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: my_site_1.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5005/", host: "localhost:1400"
+2025/08/28 16:50:51 [emerg] 19156#4032: directive "ssl_certificate" is not terminated by ";" in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:54
+2025/08/28 16:53:06 [warn] 9628#16664: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:92
+2025/08/28 16:53:06 [emerg] 9628#16664: cannot load certificate "./server.key": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(./server.key, r) error:10000080:BIO routines::no such file)
+2025/08/28 16:54:01 [warn] 5816#31732: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:92
+2025/08/28 16:54:01 [emerg] 5816#31732: cannot load certificate "C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/.../server.key": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/.../server.key, r) error:10000080:BIO routines::no such file)
+2025/08/28 16:54:33 [warn] 30528#13272: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:92
+2025/08/28 16:54:33 [emerg] 30528#13272: cannot load certificate "C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/../../server.key": PEM_read_bio_X509_AUX() failed (SSL: error:0480006C:PEM routines::no start line:Expecting: TRUSTED CERTIFICATE)
+2025/08/28 16:56:47 [warn] 28260#24716: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:92
+2025/08/28 16:56:47 [emerg] 28260#24716: cannot load certificate "C:/Users/Dhwani/Desktop/SEM-VII/MLOPs/Deployment_Scenarios/Scenario_8/server.key": BIO_new_file() failed (SSL: error:80000003:system library::No such process:calling fopen(C:/Users/Dhwani/Desktop/SEM-VII/MLOPs/Deployment_Scenarios/Scenario_8/server.key, r) error:10000080:BIO routines::no such file)
+2025/08/28 16:58:22 [warn] 26888#9572: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:92
+2025/08/28 16:58:22 [emerg] 26888#9572: cannot load certificate "C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\server.key": PEM_read_bio_X509_AUX() failed (SSL: error:0480006C:PEM routines::no start line:Expecting: TRUSTED CERTIFICATE)
+2025/08/28 16:59:26 [warn] 17492#27096: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:92
+2025/08/28 16:59:26 [emerg] 17492#27096: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:35
+2025/08/28 17:02:34 [warn] 25524#700: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:94
+2025/08/28 17:02:34 [emerg] 25524#700: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:35
+2025/08/28 17:03:12 [warn] 13716#1016: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:96
+2025/08/28 17:03:12 [warn] 2740#6668: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:96
+2025/09/25 15:40:20 [warn] 34872#35244: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:96
+2025/09/25 15:40:20 [warn] 16588#34684: protocol options redefined for 0.0.0.0:1400 in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_8\nginx-1.26.3/conf/nginx.conf:96
+2025/09/25 16:05:13 [emerg] 38592#36972: unexpected "}" in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_10\nginx-1.26.3/conf/nginx.conf:58
+2025/09/25 16:06:18 [emerg] 22480#37912: unexpected "}" in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_10\nginx-1.26.3/conf/nginx.conf:58
+2025/09/25 16:06:23 [emerg] 32172#25076: unexpected "}" in C:\Users\Dhwani\Desktop\Shrey\SEM-VII\MLOPs\Practicals\Deployment_Scenarios\Scenario_10\nginx-1.26.3/conf/nginx.conf:58
