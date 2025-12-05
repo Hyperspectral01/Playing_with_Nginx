@@ -69,6 +69,8 @@ Each scenario folder contains:
 * HTML templates
 * Additional config files if required
 
+NOTE: This repo doesn't include Scenario-9 since it requires a domain setup.
+
 ---
 
 # 🧠 Concepts You Will Learn
